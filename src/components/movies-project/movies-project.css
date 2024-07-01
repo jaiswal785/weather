@@ -1,0 +1,30 @@
+.project-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.genre-container, .watched-container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+}
+
+.genre-title-bar, .watched-title-bar input{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.genre-title-bar button{
+    background-color: black;
+    color: white;
+}
+
+.filtered-movies-list, .watched-movies-list{
+    list-style: none;
+}
+
+.filtered-movie, .watched-movie{
+    font-size: 12px;
+    font-weight: bold;
+}
